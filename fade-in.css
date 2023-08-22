@@ -1,0 +1,15 @@
+/* Estilo para o efeito de fade-in */
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  /* Aplica a animação de fade-in */
+  .fade-in {
+    animation: fadeIn 1s ease-in-out;
+  }
+  
